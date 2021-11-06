@@ -10,6 +10,9 @@ function submit()
     console.log(lenght_of_name);
 	document.getElementById("display_name").innerHTML=names_of_people.toString();
    }
+
+
+
 function show()
 {
 	var i= names_of_people.join("<br>");
